@@ -1,0 +1,13 @@
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\bin\Debug\net9.0\Counter.deps.json
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\bin\Debug\net9.0\Counter.dll
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\bin\Debug\net9.0\Counter.pdb
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\Counter.csproj.AssemblyReference.cache
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\Counter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\Counter.AssemblyInfoInputs.cache
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\Counter.AssemblyInfo.cs
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\Counter.csproj.CoreCompileInputs.cache
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\XamlC.stamp
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\Counter.dll
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\refint\Counter.dll
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\Counter.pdb
+C:\Users\kulcz\Desktop\Counter_Project\Counter\Counter\Counter\obj\Debug\net9.0\ref\Counter.dll

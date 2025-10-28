@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Counter"
+             x:Class="Counter.MainPage"
+             BackgroundColor="DarkSlateGray">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Create new counter:" FontAttributes="Bold" />
+
+            <Entry x:Name="InitialValueEntry" Placeholder="Initial value" Keyboard="Numeric" />
+
+            <Picker x:Name="ColorPicker" Title="Select color (optional)">
+                <Picker.Items>
+                    <x:String>Red</x:String>
+                    <x:String>Green</x:String>
+                    <x:String>Blue</x:String>
+                    <x:String>Custom RGB</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <HorizontalStackLayout x:Name="RGBInputs" IsVisible="False" Spacing="5">
+                <Entry x:Name="RedEntry" Placeholder="R" Keyboard="Numeric" WidthRequest="60" />
+                <Entry x:Name="GreenEntry" Placeholder="G" Keyboard="Numeric" WidthRequest="60" />
+                <Entry x:Name="BlueEntry" Placeholder="B" Keyboard="Numeric" WidthRequest="60" />
+            </HorizontalStackLayout>
+
+            <Button Text="Add counter" Clicked="AddCounter" BackgroundColor="DarkOrange"/>
+
+            <Button Text="Reset all counters" Clicked="ResetAll" BackgroundColor="Orange" TextColor="Black"/>
+
+            <VerticalStackLayout x:Name="CountersContainer" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
