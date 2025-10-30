@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Counter.CounterView">
@@ -13,12 +13,14 @@
             <Label x:Name="NumberLabel" FontSize="16" HorizontalOptions="Center"/>
 
             <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                <Button Text="+" Clicked="IncreaseClicked" />
                 <Button Text="-" Clicked="DecreaseClicked" />
+                <Button Text="+" Clicked="IncreaseClicked" />
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
                 <Button Text="Reset" Clicked="ResetClicked" />
+                <Button Text="Rename" Clicked="RenameClicked" TextColor="Black"/>
+                <!--nowy przycisk -->
                 <Button Text="Remove" Clicked="RemoveClicked" TextColor="Black"/>
             </HorizontalStackLayout>
         </VerticalStackLayout>
