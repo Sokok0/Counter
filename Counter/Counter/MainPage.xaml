@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Counter"
@@ -9,6 +9,9 @@
         <VerticalStackLayout Padding="20" Spacing="15">
 
             <Label Text="Create new counter:" FontAttributes="Bold" />
+
+            <!-- Nowe pole na nazwę licznika -->
+            <Entry x:Name="NameEntry" Placeholder="Counter name" />
 
             <Entry x:Name="InitialValueEntry" Placeholder="Initial value" Keyboard="Numeric" />
 
