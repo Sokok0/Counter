@@ -1,4 +1,4 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 using Microsoft.Maui.Graphics;
 
 namespace Counter
@@ -28,7 +28,7 @@ namespace Counter
 
             foreach (var model in counters)
             {
-                var view = new CounterView(model);
+                var view = new CounterView(model, counters); //przekazujemy referencję do listy counters
                 view.Removed += (s, e) =>
                 {
                     counters.Remove(model);
@@ -47,7 +47,7 @@ namespace Counter
 
             var model = new CounterViewModel
             {
-                Name = $"Counter {counters.Count + 1}",
+                Name = string.IsNullOrWhiteSpace(NameEntry.Text) ? $"Counter {counters.Count + 1}" : NameEntry.Text,
                 InitialValue = initialValue,
                 Value = initialValue,
                 ColorR = (int)(color.Red * 255),
@@ -59,6 +59,7 @@ namespace Counter
             CounterStorage.Save(counters);
             RenderCounters();
 
+            NameEntry.Text = "";
             InitialValueEntry.Text = "";
             ColorPicker.SelectedIndex = -1;
             RGBInputs.IsVisible = false;
